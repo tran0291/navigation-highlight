@@ -1,16 +1,11 @@
 html {
- box-sizing: border-box;
-}
-
-*, *::before, *::after {
- box-sizing:inherit;
-  font-family: Georgia serif;
+ line-height: 1.5;
+ font-family: Georgia serif;
 }
 
 h1, h2 {
   font-family: 'Sigmar One', cursive;
   font-size: 3rem;
-  line-height: 1.5;
   color: #cc1465;
 }
 
@@ -28,6 +23,7 @@ h2 {
 }
 
 p {
+  font-family: Georgia serif;
   font-style: normal;
   color: #000;
   font-weight: normal;
@@ -60,13 +56,11 @@ nav a {
 }
 
 h1 {
-  margin: 0 0 .2em
-  padding: 0.2em 0.5em 0.3em;
+  margin: 0em 0em 0em
 }
 
 .current-screen {
-  background-color: #b20953; 
-
+  background-color: #b20953;
 }
 
 
