@@ -59,11 +59,14 @@ nav a {
   padding: 10px;
 }
 
-<!------ Boxes----->
-
 h1 {
   margin: 0 0 .2em
   padding: 0.2em 0.5em 0.3em;
+}
+
+.current-screen {
+  background-color: #b20953; 
+
 }
 
 
