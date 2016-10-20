@@ -1,7 +1,81 @@
 html {
- box-sizing: border-box;
+  box-sizing: border-box;
+  margin:
+  padding: 0.2em 0.5em 0.3em;
+
+  font-family: Georgia serif;
+
 }
 
 *, *::before, *::after {
  box-sizing:inherit;
 }
+
+h1, h2 {
+
+  font-family: 'Sigmar One', cursive;
+  font-size: 3rem;
+  line-height: 1.5;
+  color: #cc1465;
+
+  padding: 00 .4em;
+  margin: 00 0.2em;
+
+}
+
+nav ol li, p {
+
+  font-style: Georgia serif;
+  list-style-type: none;
+  font-size: 1.125rem;
+
+  text-align: center;
+  display: inline-block;
+}
+
+h2 {
+  font-size: 1.875rem;
+}
+
+p {
+  font-style: normal;
+  color: #000;
+  font-weight: normal;
+  text-align: left;
+}
+
+b {
+  font-weight: bold;
+}
+
+h1, footer {
+  background-color: #ffe500;
+  }
+
+footer {
+  font-weight: lighter;
+  text-align: center;
+}
+
+nav a {
+  background-color: #b2a212;
+  color: #fff;
+  text-decoration: none;
+
+  padding: 0.2em 0.5em 0.3em;
+}
+
+
+
+
+
+
+## Details
+
+- *Typefaces*: `Georgia`, `Sigmar One`
+- *Text sizes*: `3rem`, `1.875rem`, `1.125rem`, `.75rem`
+- *Colours:* `#2f2d13`, `#cc1465`, `#ffe500`, `#b20953`, `#b2a212`
+- *Line height:* `1.5`
+- *Paddings:* `0 0 .4em`, `.2em .5em .3em`, `0 10px`, `10px`
+- *Margins:* `0 0 .2em`, `.3em`
+- *Corner radius*: `4px`
