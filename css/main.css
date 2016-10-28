@@ -34,6 +34,7 @@ h1 {
 nav a {
   font-family: Georgia, serif;
   font-size: 1.125rem;
+  font-weight: 500;
 
   background-color: #b2a212;
   color: #fff;
@@ -66,8 +67,8 @@ ol {
 
 main {
   line-height: normal;
-  margin-top: 10px;
-  padding-top: 10px;
+  margin: .3em;
+  padding-top: 11px;
   display: inline-block;
   text-align: left;
 }
@@ -79,6 +80,11 @@ img {
   display: block;
 }
 
+.img {
+  width: 97.3%;
+  height: 92%;
+}
+
 h2 {
   font-family: "Sigmar One", cursive;
   font-size: 1.875rem;
@@ -86,7 +92,7 @@ h2 {
   text-align: left;
 
   margin: .3em;
-  padding: 10px;
+  padding-bottom: 10px;
 }
 
 p {
@@ -96,8 +102,8 @@ p {
   line-height: 1.5;
   text-align: left;
 
-  margin: .3em;
-  padding: 0;
+  margin: .3em .4em .2em;
+  padding: 5px 10px;
   display: inline-block;
 }
 
@@ -105,18 +111,21 @@ b {
   font-weight: bold;
 }
 
-small {
-  font-size: .75rem;
-}
-
 footer {
   background-color: #ffe500;
-  margin: 0;
+  padding: 13px;
 }
 
 footer small {
+  background-color: #ffe500;
+  font-size: .74rem;
   text-align: center;
   font-weight: lighter;
+
+  display: block;
+  padding: 0;
+  margin: 0;
+
 }
 
 nav {
